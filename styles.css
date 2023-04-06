@@ -1,0 +1,53 @@
+html { 
+    background: url(./images/baking-img.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #F0FFF0;
+    text-align: left;
+    font-family: 'Times New Roman', Georgia, Garamond;
+}
+
+.recipes{
+    background: url(./images/texture.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+body{
+    padding: 200px;
+    padding-left: 50%;
+}
+
+.bodyre{
+    padding: 100px; 
+}
+
+.bodyre ul,
+ol{
+    text-align: left;
+}
+
+.bodyre ul{
+    transform: translate(30%, 0%);
+}
+
+a:link {
+    color: rgb(221,160,221);
+  }
+  
+a:visited {
+    color: rgb(150, 53, 150);
+  }
+
+a:hover{
+    color: rgb(218,112,214);
+}
+  
+a:active {
+    color: rgb(255,0,255);
+}
