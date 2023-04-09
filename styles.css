@@ -69,10 +69,6 @@ a:active {
         padding: 15px;
     }
 
-    .bodyre ul{
-        transform: translate(20%, 0%);
-    }
-
     img{
         height: auto;
         width: 80%;
