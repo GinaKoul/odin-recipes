@@ -7,6 +7,7 @@ html {
     color: #F0FFF0;
     text-align: left;
     font-family: 'Times New Roman', Georgia, Garamond;
+    font-size: 20px;
 }
 
 .recipes{
@@ -18,22 +19,9 @@ html {
     text-align: center;
 }
 
-body{
-    padding: 200px;
-    padding-left: 50%;
-}
-
-.bodyre{
-    padding: 100px; 
-}
-
 .bodyre ul,
 ol{
     text-align: left;
-}
-
-.bodyre ul{
-    transform: translate(30%, 0%);
 }
 
 a:link {
@@ -50,4 +38,43 @@ a:hover{
   
 a:active {
     color: rgb(255,0,255);
+}
+
+@media (orientation: landscape){
+    body{
+        margin: 80px;
+        margin-left: 40%;
+        padding: 20px;
+    }
+    
+    .bodyre{
+        margin: 80px;
+        padding: 20px; 
+    }
+
+    .bodyre ul{
+        transform: translate(35%, 0%);
+    }
+}
+
+@media (orientation: portrait){
+    body{
+        margin: 50px;
+        margin-left: 40%;
+        padding: 10px;
+    }
+
+    .bodyre{
+        margin: 35px;
+        padding: 15px;
+    }
+
+    .bodyre ul{
+        transform: translate(20%, 0%);
+    }
+
+    img{
+        height: auto;
+        width:80%
+    }
 }
